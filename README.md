@@ -1,5 +1,7 @@
 # Formygirlsalsa
 Untuk kekasihku salsa, ❤️❤️
+
+
 <!DOCTYPE html>
 <html lang="id">
 <head>
@@ -16,14 +18,12 @@ Untuk kekasihku salsa, ❤️❤️
       margin: 0;
       font-size: 20px; /* Ukuran font default */
     }
-
-    h1 {
+     h1 {
       color: #ff1493;
       font-size: 4vw; /* Responsif berdasarkan lebar layar */
       animation: fadeIn 2s ease-in-out forwards;
     }
-
-    #gombal {
+ #gombal {
       font-size: 1.8em; /* Ukuran font lebih besar */
       color: #cc0066;
       margin: 30px auto;
@@ -31,12 +31,10 @@ Untuk kekasihku salsa, ❤️❤️
       line-height: 2em;
       opacity: 0;
       transition: opacity 0.5s ease;
-    }
-
+ } 
     #gombal.show {
       opacity: 1;
     }
-
     button {
       padding: 14px 28px;
       background: #ff69b4;
@@ -47,31 +45,26 @@ Untuk kekasihku salsa, ❤️❤️
       cursor: pointer;
       transition: 0.3s ease;
     }
-
-    button:hover {
+ button:hover {
       background: #ff1493;
       transform: scale(1.1);
     }
-
-    .heart {
+ .heart {
       position: fixed;
       color: red;
       animation: floatUp 4s linear forwards;
       font-size: 24px;
       pointer-events: none;
     }
-
-    @keyframes fadeIn {
+  @keyframes fadeIn {
       from { opacity: 0; transform: translateY(-20px); }
       to { opacity: 1; transform: translateY(0); }
     }
-
-    @keyframes floatUp {
+ @keyframes floatUp {
       0% { transform: translateY(0); opacity: 1; }
       100% { transform: translateY(-100vh); opacity: 0; }
     }
-
-    @media (max-width: 600px) {
+@media (max-width: 600px) {
       h1 { font-size: 6vw; } /* Ukuran font lebih besar di perangkat mobile */
       #gombal { font-size: 1.5em; } /* Ukuran font lebih besar */
     }
